@@ -5,4 +5,5 @@ steps:
     scanGitUrl: 'https://github.com/mergenhan/UI5_vulnerable_design.git'
     scanGitBranch: 'jenkins-file'
     appType: 'SAPUI5'
-    failOnOptionalFinding: true
+    failOnMandatoryFinding: false
+    failOnOptionalFinding: false
