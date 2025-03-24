@@ -4,5 +4,5 @@ steps:
     scanServiceUrl: 'https://awslabsap1079.orl.onapsis.com:30443'
     scanGitUrl: 'https://github.com/mergenhan/UI5_vulnerable_design.git'
     scanGitBranch: 'jenkins-file'
-    appType: 'ui5'
+    appType: 'SAPUI5'
     failOnOptionalFinding: true
