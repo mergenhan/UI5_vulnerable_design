@@ -8,5 +8,6 @@ node() {
 
     stage('malwareScan') {
         onapsisExecuteScan script: this
+        sh "rm -f onapsisExecuteScan_errorDetails.json"
     }
 }
