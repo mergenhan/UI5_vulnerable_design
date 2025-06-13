@@ -22,6 +22,6 @@ steps:
 - task: onapsis-azure-platform.c4c-azure-pipeline-dev.c4c-codescan-task-dev.c4c-codescan@1.1.1
   inputs:
     ccaconnection: 'Murat-UAT-1'
-    failonmandatory: false
+    failonmandatory: true
     failonoptional: false
-    failoninformation: true
+    failoninformation: false
