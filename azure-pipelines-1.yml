@@ -24,3 +24,4 @@ steps:
     ccaconnection: 'Murat-UAT-1'
     failonmandatory: false
     failonoptional: false
+    failoninformation: true
