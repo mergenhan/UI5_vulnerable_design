@@ -19,6 +19,8 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- task: c4c-codescan@1
+- task: onapsis-azure-platform.c4c-azure-pipeline-dev.c4c-codescan-task-dev.c4c-codescan@1.1.1
   inputs:
-    ccaconnection: 'test murat'
+    ccaconnection: 'Murat-UAT-1'
+    failonmandatory: false
+    failonoptional: false
